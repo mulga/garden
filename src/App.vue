@@ -5,19 +5,13 @@
   <the-hero></the-hero>
   <section-kids></section-kids>
   <section-blog></section-blog>
-  <base-testimonial>
-    <section-testimonial
-      v-for="item in testimonials"
-      :key="item"
-    ></section-testimonial>
-  </base-testimonial>
+  <section-testimonial></section-testimonial>
   <section-pre-order> </section-pre-order>
   <section-newsletter></section-newsletter>
   <section-footer></section-footer>
 </template>
 
 <script>
-import BaseTestimonial from "./components/BaseTestimonial.vue";
 import SectionBlog from "./components/SectionBlog.vue";
 import SectionFooter from "./components/SectionFooter.vue";
 import SectionKids from "./components/SectionKids.vue";
@@ -37,9 +31,7 @@ export default {
     SectionPreOrder,
     SectionNewsletter,
     SectionFooter,
-    BaseTestimonial,
   },
-  inject: ["testimonials"],
 };
 </script>
 
