@@ -59,7 +59,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      blogs: [
+        {
+          blogTitle: "",
+          blogText: "",
+          blogLink: "",
+          blogAuthor: "",
+          blogImage: "",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>

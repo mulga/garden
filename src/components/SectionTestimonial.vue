@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="title-container">
-        <div class="hero-title-secondary">This is What Our Customers Said!</div>
+        <div class="hero-title-secondary">{{ testimonails.testText }}</div>
         <button class="btn btn-primary">See All Testimonials</button>
       </div>
       <div class="testimonial-card-wrapper">
@@ -45,7 +45,32 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      testimonails: [
+        {
+          tesText:
+            "Voluptates eum officia praesentium ducimus eos molestiae rem voluptatem consectetur.",
+          tesName: "Trudie",
+        },
+        {
+          tesText: "Perferendis alias sapiente.",
+          tesName: "Nakia",
+        },
+        {
+          tesText: "Ad voluptas maiores.",
+          tesName: "Alf",
+        },
+      ],
+    };
+  },
+  provide() {
+    return {
+      testimonials: this.testimonials,
+    };
+  },
+};
 </script>
 
 <style scoped>
