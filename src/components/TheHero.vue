@@ -11,7 +11,7 @@
           <button class="btn btn-primary">Learn More</button>
         </div>
         <div class="hero-image">
-          <img class="hero-img" src="@/assets/image1.jpeg" alt="" />
+          <img class="hero-img" src="@/assets/m1.png" alt="" />
         </div>
       </div>
     </div>
@@ -28,7 +28,7 @@ export default {
 <style scoped>
 .hero-section {
   background-color: #136b5f;
-  padding: 5rem 0;
+  padding: 5rem 0 0 0;
   /* min-height: 50vh; */
   border-bottom-left-radius: 100px;
 }
@@ -52,4 +52,7 @@ export default {
   width: 618px;
   right: 15%;
 } */
+
+.text {
+}
 </style>

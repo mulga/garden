@@ -11,7 +11,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
           </p>
-          <button class="btn btn-primary">Learn More</button>
+          <button class="btn btn-primary">Pre-Order Now</button>
         </div>
       </div>
     </div>
@@ -23,14 +23,10 @@ export default {};
 </script>
 
 <style scoped>
-section {
-  padding: 10rem 0;
-}
-
 .grid {
   /* grid-template-columns: 1fr 1fr; */
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-  gap: 9rem;
+  gap: clamp(1rem, -0.6429rem + 10.7143vw, 9rem);
 }
 .hero-text {
   margin: 28px 0;
