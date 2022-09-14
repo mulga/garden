@@ -64,7 +64,7 @@ export default {
     return {
       blogs: [
         {
-          blogTitle: "",
+          blogTitle: "test",
           blogText: "",
           blogLink: "",
           blogAuthor: "",
