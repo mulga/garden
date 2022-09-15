@@ -14,10 +14,6 @@
   margin-bottom: 80px;
 }
 
-.hero-title-secondary {
-  max-width: 50%;
-}
-
 .testimonial-card-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -29,6 +25,7 @@
   padding: 52px 30px 30px 30px;
   position: relative;
   border: 0;
+  border: none;
 }
 
 .tes-img {

@@ -79,6 +79,7 @@ export default {
 <style scoped>
 .hero-title-secondary {
   margin-bottom: 5rem;
+  text-align: center;
 }
 
 .blog-wrapper {
@@ -102,10 +103,6 @@ export default {
 .blog-big-image {
   width: 100%;
   height: 220px;
-}
-
-.hero-title-secondary {
-  text-align: center;
 }
 
 .blog-card-right {

@@ -2,7 +2,7 @@
   <section-testimonial-scop>
     <div class="container">
       <div class="title-container">
-        <div class="hero-title-secondary">{{ testimonails.testText }}</div>
+        <div class="hero-title-secondary">This is What Our Customers Said!</div>
         <button class="btn btn-primary">See All Testimonials</button>
       </div>
       <div class="testimonial-card-wrapper">
@@ -51,4 +51,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.hero-title-secondary {
+  max-width: 50%;
+}
+</style>
