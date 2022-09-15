@@ -29,7 +29,7 @@
 }
 
 .tes-img {
-  width: 53px;
+  width: 52px;
   position: absolute;
   top: -25px;
   left: 21px;
