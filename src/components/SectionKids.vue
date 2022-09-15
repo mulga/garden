@@ -48,4 +48,29 @@ export default {};
 .hero-text {
   margin: 28px 0;
 }
+/* media queries */
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: unset;
+    /* grid-template-columns: repeat(auto-fit, minmax(350px, auto)); */
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero-text {
+    max-width: 350px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-button {
+    width: 100%;
+  }
+}
 </style>

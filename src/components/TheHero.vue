@@ -8,7 +8,7 @@
             Needs a best plants for your home-made garden? Don’t worry! we got
             it for you!
           </p>
-          <button class="btn btn-primary">Learn More</button>
+          <button class="btn btn-primary hero-button">Learn More</button>
         </div>
         <div class="hero-image">
           <img class="hero-img" src="@/assets/m1.png" alt="" />
@@ -57,5 +57,30 @@ export default {
 .hero-text {
   max-width: 380px;
   margin: 30px 0;
+}
+
+/* media queries */
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(350px, auto)); */
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero-text {
+    max-width: 350px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-button {
+    width: 100%;
+  }
 }
 </style>
