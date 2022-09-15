@@ -65,7 +65,7 @@ export default {
       blogs: [
         {
           blogTitle: "test",
-          blogText: "",
+          blogText: "blof text biraya gelecek",
           blogLink: "",
           blogAuthor: "",
           blogImage: "",
