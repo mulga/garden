@@ -8,7 +8,8 @@
             Needs a best plants for your home-made garden? Don’t worry! we got
             it for you!
           </p>
-          <button class="btn btn-primary hero-button">Learn More</button>
+          <!-- <button class="btn btn-primary hero-button">Learn More</button> -->
+          <base-button> Learn More </base-button>
         </div>
         <div class="hero-image">
           <img class="hero-img" src="@/assets/m1.png" alt="" />
@@ -19,9 +20,10 @@
 </template>
 
 <script>
+import BaseButton from "./BaseButton.vue";
 // import TheHeader from "./TheHeader.vue";
 export default {
-  components: {},
+  components: { BaseButton },
 };
 </script>
 

@@ -14,7 +14,8 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
           </p>
-          <button class="btn btn-primary">Pre-Order Now</button>
+          <!-- <button class="btn btn-primary">Pre-Order Now</button> -->
+          <base-button> Pre-Order Now </base-button>
         </div>
       </div>
     </div>
@@ -22,7 +23,12 @@
 </template>
 
 <script>
-export default {};
+import BaseButton from "./BaseButton.vue";
+export default {
+  components: {
+    BaseButton,
+  },
+};
 </script>
 
 <style scoped>
